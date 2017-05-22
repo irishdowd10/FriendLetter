@@ -4,6 +4,9 @@ namespace FriendLetter.Objects
   {
     private string _recipient;
     private string _sender;
+    private string _vacation;
+    private string _item;
+
 
     public string GetRecipient()
     {
@@ -24,5 +27,26 @@ namespace FriendLetter.Objects
     {
       _sender = newSender;
     }
+
+    public string GetVacation()
+    {
+      return _vacation;
+    }
+
+    public void SetVacation(string newVacation)
+    {
+      _vacation = newVacation;
+    }
+
+    public string GetItem()
+    {
+      return _item;
+    }
+
+    public void SetItem(string newItem)
+    {
+      _item = newItem;
+    }
+
   }
 }
